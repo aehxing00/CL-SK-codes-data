@@ -1,0 +1,18 @@
+# Model weights / caches
+models/
+unsloth_compiled_cache/
+*.pt
+*.bin
+*.safetensors
+
+# Training outputs
+hippocampus_output*/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Misc
+.DS_Store
