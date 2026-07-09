@@ -1,0 +1,55 @@
+
+
+
+每次五百，然后测一下。。。给出折线图  一次五千
+
+对模型能力的影响
+
+通用能力测试
+
+
+
+source /etc/network_turbo
+env | grep -i proxy
+unset http_proxy && unset https_proxy
+
+
+BENCH_MODE=0 python benchmarks_9.py
+
+
+
+
+
+5h做完：
+
+MMLU-Redux  全学科英文客观题   10  ！！！！！
+GLUE全子集   基础英文语言理解基准  10    ！！！！！
+MATH-500   初高中竞赛数学  60    ！！！！！！
+IFEval   指令遵循能力基准   45  ！！！！！！！！！！！！！
+C-Eval  中文全科客观题  35
+ARC-Easy、ARC-Challenge  中小学科学常识  15
+WinoGrande  代词指代消歧任务  5
+HellaSwag  日常场景故事补全  20
+Global PIQA  世界物理常识单选     15
+
+
+
+
+
+MMMLU（多语言 MMLU全学科单选）  60
+
+
+unsloth/Qwen3.5-4B   vLLM/PagedAttention
+
+
+
+
+Global PIQA（常识单选）
+MMLU-Redux（简化通识单选，输出短）
+MMLU（通用全科单选）
+
+MMLU-Pro（难题单选，推理更长）
+MMLU-ProX（29 国语言单选，多分词开销）
+
+NOVA-63（63 语种基础选择）
+INCLUDE（多语言常识选择题）
