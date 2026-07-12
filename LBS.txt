@@ -1,4 +1,4 @@
-
+GAR: Gated Adaptive Retention for Continual Knowledge Injection without Forgetting
 
 
 每次五百，然后测一下。。。给出折线图  一次五千
@@ -7,7 +7,7 @@
 
 通用能力测试
 
-
+pip install vllm lm-eval tqdm datasets modelscope scikit-learn
 
 source /etc/network_turbo
 env | grep -i proxy
